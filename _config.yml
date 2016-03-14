@@ -1,0 +1,29 @@
+# Site settings
+title: Alda
+description: >
+  Inspired by other music/audio programming languages such as PPMCK, LilyPond
+  and ChucK, Alda aims to be a powerful and flexible programming language for
+  the musician who wants to easily compose and generate music on the fly, using
+  naught but a text editor. Alda is designed in a way that equally favors
+  aesthetics, flexibility and ease of use, with (eventual) support for the
+  text-based creation of all manner of music: classical, popular, chiptune,
+  electroacoustic, and more!
+
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://alda.io" # the base hostname & protocol for your site
+
+author:
+  fullname: Dave Yarwood
+  github: alda-lang
+  reddit: alda
+
+# Syntax highlighting
+highlightstyle: ''
+styles: [agate, androidstudio, arta, asceti, atelier-cave.dark, atelier-cave.light, atelier-dune.dark, atelier-dune.light, atelier-estuary.dark, atelier-estuary.light, atelier-forest.dark, atelier-forest.light, atelier-heath.dark, atelier-heath.light, atelier-lakeside.dark, atelier-lakeside.light, atelier-plateau.dark, atelier-plateau.light, atelier-savanna.dark, atelier-savanna.light, atelier-seaside.dark, atelier-seaside.light, atelier-sulphurpool.dark, atelier-sulphurpool.light, brown_paper, codepen-embed, color-brewer, dark, darkula, default, docco, far, foundation, github, github-gist, googlecode, grayscale, hopscotch, hybrid, idea, ir_black, kimbie.dark, kimbie.light, magula, mono-blue, monokai, monokai_sublime, obsidian, paraiso.dark, paraiso.light, pojoaque, railscast, rainbow, school_book, solarized_dark, solarized_light, styles_list.txt, sunburst, tomorrow, tomorrow-night-blue, tomorrow-night-bright, tomorrow-night, tomorrow-night-eightie, v, xcode, zenburn]
+
+# Handling Reading
+exclude: ["README.md", "README.html"]
+
+# Build settings
+highlighter: null
+markdown: kramdown
