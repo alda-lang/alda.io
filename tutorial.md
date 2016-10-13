@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Tutorial
-subtitle: time to make some music
+subtitle: Time to make some music!
 permalink: /tutorial/
 ---
 
@@ -212,4 +212,4 @@ Using markers is a two-step process. Place a marker by sticking a `%` before the
     trombone: o3 e8 f g a b > c d e4.~2
     tuba: @last-note o2 c4.~2
 
-So, that’s Alda in a nutshell. Please don’t hesitate to e-mail me if you have any questions about how to do something in Alda. Or, better yet, if you’re a Clojure programmer and you like open-source software, consider [contributing!](https://github.com/alda-lang/alda/issues) Pull requests are warmly accepted.
+So, that’s Alda in a nutshell. Please don’t hesitate to [e-mail me](mailto:dave.yarwood@gmail.com?subject=alda) if you have any questions about how to do something in Alda. Or, better yet, if you’re a Clojure programmer and you like open-source software, consider [contributing!](https://github.com/alda-lang/alda/blob/master/CONTRIBUTING.md) Pull requests are warmly accepted.
