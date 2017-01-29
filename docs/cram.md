@@ -1,3 +1,10 @@
+---
+layout: page
+title: README
+subtitle: 
+permalink: /docs/cram
+---
+
 # CRAM
 
 **Crazy Rhythm Alda Magic (C.R.A.M.)** is an alternative way of representing rhythms in Alda. It can be useful for n-tuplets and polyrhythms.

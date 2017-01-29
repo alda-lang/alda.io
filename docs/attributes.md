@@ -1,3 +1,10 @@
+---
+layout: page
+title: README
+subtitle: 
+permalink: /docs/attributes
+---
+
 # Attributes
 
 An **attribute** defines some quality of how an [instrument](scores-and-parts.md) (or multiple instruments) plays its [notes](notes.md).

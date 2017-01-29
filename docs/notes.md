@@ -1,3 +1,10 @@
+---
+layout: page
+title: README
+subtitle: 
+permalink: /docs/notes
+---
+
 # Notes
 
 Alda's syntax for **notes** is heavily inspired by [MML](http://www.nullsleep.com/treasure/mck_guide).

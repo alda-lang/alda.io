@@ -1,3 +1,10 @@
+---
+layout: page
+title: README
+subtitle: 
+permalink: /docs/alda-client
+---
+
 # The Alda Command-Line Client
 
 TODO: add basic info about using the Alda command-line client.

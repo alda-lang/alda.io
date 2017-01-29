@@ -1,3 +1,10 @@
+---
+layout: page
+title: README
+subtitle: 
+permalink: /docs/voices
+---
+
 # Voices
 
 **Voices** provide a way to subdivide an instrument into its own separate parts, which play simultaneously. This can be useful for polyphonic instruments, that is, instruments that can play more than one [note](notes.md) at a time, e.g. guitar, piano. 

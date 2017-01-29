@@ -1,3 +1,10 @@
+---
+layout: page
+title: README
+subtitle: 
+permalink: /docs/building-the-alda-executable
+---
+
 # Building the `alda` (and/or `alda.exe`) Executable
 
 Dave does this process himself for every release, but it doesn't hurt to have it documented here!

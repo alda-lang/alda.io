@@ -1,3 +1,10 @@
+---
+layout: page
+title: README
+subtitle: 
+permalink: /docs/chords
+---
+
 # Chords
 
 A **chord** is a collection of [notes](notes.md) which all start at the same [offset](offset.md), i.e. they all start at the exact same time. In Alda, a chord is expressed as notes with slashes in between them: `c/e/g`

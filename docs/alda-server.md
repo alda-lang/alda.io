@@ -1,3 +1,10 @@
+---
+layout: page
+title: README
+subtitle: 
+permalink: /docs/alda-server
+---
+
 # alda.server
 
 `alda.server` is the Clojure namespace containing the code for the background server process started by the Alda command-line [client](alda-client.md).

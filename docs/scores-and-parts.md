@@ -1,3 +1,10 @@
+---
+layout: page
+title: README
+subtitle: 
+permalink: /docs/score-and-parts
+---
+
 # Scores and Parts
 
 The top level of a piece of music written in Alda is the **score**. A score consists of any number of instrument **parts**, each of which have their own [note](notes.md) events, which occur simultaneously.

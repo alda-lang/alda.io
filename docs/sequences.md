@@ -1,3 +1,10 @@
+---
+layout: page
+title: README
+subtitle: 
+permalink: /docs/sequences
+---
+
 # Sequences
 
 In an Alda score, a series of [notes](notes.md) or other events can be captured as a **sequence** by enclosing it in square brackets:

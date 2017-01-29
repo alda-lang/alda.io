@@ -1,3 +1,10 @@
+---
+layout: page
+title: README
+subtitle: 
+permalink: /docs/alda-now
+---
+
 # alda.now
 
 `alda.now`, when coupled with [`alda.lisp`](alda-lisp.md), provides a way to work with Alda scores and play music programmatically within a Clojure application.

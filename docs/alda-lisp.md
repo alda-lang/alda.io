@@ -6,8 +6,12 @@ Under the hood, Alda transforms input (i.e. Alda code) into Clojure code which, 
 
 You can use the `parse` task to parse Alda code into alda.lisp (`-l`/`--lisp`) and/or evaluate it to produce a map (`-m`/`--map`) of score information.
 
+```sh
     $ alda parse --lisp -f examples/hello_world.alda
+```
 
+
+```clojure
     (alda.lisp/score
      (alda.lisp/part
       {:names ["piano"]}
@@ -24,9 +28,13 @@ You can use the `parse` task to parse Alda code into alda.lisp (`-l`/`--lisp`) a
       (alda.lisp/note
        (alda.lisp/pitch :c)
        (alda.lisp/duration (alda.lisp/note-length 2 {:dots 1})))))
+```
 
+```sh
     $ alda parse --map -f examples/hello_world.alda
+```
 
+```clojure
     {:chord-mode false,
      :current-instruments #{"piano-Id8yG"},
      :events
@@ -135,10 +143,14 @@ You can use the `parse` task to parse Alda code into alda.lisp (`-l`/`--lisp`) a
      :cram-level 0,
      :global-attributes {},
      :nicknames {},
+```
 
+```sh
     $ alda parse --lisp -c 'cello: c+'
+```
 
+```clojure
     (alda.lisp/score
       (alda.lisp/part {:names ["cello"]}
         (alda.lisp/note (alda.lisp/pitch :c :sharp))))
-
+```

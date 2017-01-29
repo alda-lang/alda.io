@@ -13,7 +13,7 @@ Hello! I'm an introductory paragraph, and this is the landing page for Alda's of
 
 * [README](../docs/README)
 * [Contributing to Alda](../docs/CONTRIBUTING)
-* [CHANGELOG (Version History)](./docs/CHANGELOG)
+* [CHANGELOG (Version History)](../docs/CHANGELOG)
 * [Some background on Alda and a tutorial](http://blog.djy.io/alda-a-manifesto-and-gentle-introduction)
 * [Alda for Clojurists](http://blog.djy.io/alda-for-clojurists)
 
@@ -31,12 +31,12 @@ Hello! I'm an introductory paragraph, and this is the landing page for Alda's of
 
 * The article on [scores and parts](scores-and-parts.md) provides some good general information on what an Alda score is. After that, you may be interested in learning more about the fundamental pieces of an Alda score:
   * [notes](../docs/notes)
-  * [rests](rests.md)
-  * [chords](chords.md)
-  * [voices](voices.md)
-  * [markers](markers.md)
-  * [offset](offset.md)
-  * [attributes](attributes.md)
+  * [rests](../docs/rests)
+  * [chords](../docs/chords)
+  * [voices](../docs/voices)
+  * [markers](../docs/markers)
+  * [offset](../docs/offset)
+  * [attributes](../docs/attributes)
 
 * Peruse this list of [available instruments](list-of-instruments.md).
 

@@ -1,3 +1,10 @@
+---
+layout: page
+title: README
+subtitle: 
+permalink: /docs/variables
+---
+
 # Variables
 
 Repetition is an important aspect of music. In addition to repeating notes and phrases, it is often desirable to repeat larger phrases or entire sections. This can be cumbersome with Alda's [repeat](repeats.md) syntax alone. For greater flexibility and cleaner code, you can define **variables** that represent named [sequences of events](sequences.md).
