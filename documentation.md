@@ -1,29 +1,36 @@
+---
+layout: page
+title: Documentation
+subtitle: 
+permalink: /documentation/
+---
+
 # Alda: The Docs™
 
 Hello! I'm an introductory paragraph, and this is the landing page for Alda's official documentation. If you've come here to learn more about Alda and how to use it to write amazing musical scores, READ ON!
 
 ## Useful Links
 
-* [README](../README.md)
-* [Contributing to Alda](../CONTRIBUTING.md)
-* [CHANGELOG (Version History)](../CHANGELOG.md)
+* [README](../docs/README)
+* [Contributing to Alda](../docs/CONTRIBUTING)
+* [CHANGELOG (Version History)](./docs/CHANGELOG)
 * [Some background on Alda and a tutorial](http://blog.djy.io/alda-a-manifesto-and-gentle-introduction)
 * [Alda for Clojurists](http://blog.djy.io/alda-for-clojurists)
 
 ## Where to Start
 
-* [Installing Alda](../README.md#installation)
+* [Installing Alda](.docs/README.md#installation)
 
-  * [Updating Alda](../README.md#updating-alda)
+  * [Updating Alda](./documentation/README.md#updating-alda)
 
-  * [MIDI soundfonts](../README.md#midi-soundfonts)
+  * [MIDI soundfonts](./documentation/README.md#midi-soundfonts)
 
-  * [Editor plugins](../README.md#editor-plugins)
+  * [Editor plugins](./documentation/README.md#editor-plugins)
 
 * Learn about the [etymology](etymology.md) behind the name Alda.
 
 * The article on [scores and parts](scores-and-parts.md) provides some good general information on what an Alda score is. After that, you may be interested in learning more about the fundamental pieces of an Alda score:
-  * [notes](notes.md)
+  * [notes](../docs/notes)
   * [rests](rests.md)
   * [chords](chords.md)
   * [voices](voices.md)
