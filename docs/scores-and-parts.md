@@ -7,11 +7,11 @@ permalink: /docs/scores-and-parts
 
 # Scores and Parts
 
-The top level of a piece of music written in Alda is the **score**. A score consists of any number of instrument **parts**, each of which have their own [note](notes.md) events, which occur simultaneously.
+The top level of a piece of music written in Alda is the **score**. A score consists of any number of instrument **parts**, each of which have their own [note](../docs/notes) events, which occur simultaneously.
 
 Alda is designed to be flexible about how a score is organized. For the same piece of music, a composer can choose to write each instrument part's notes from beginning to end before moving on to the next instrument part (something like ex. 1), or alternate between the instrument parts, organizing the score by section rather than by part (ex. 2).
 
-> Note: Here is a [list of instruments](list-of-instruments.md) available to you when writing a score in Alda.
+> Note: Here is a [list of instruments](../docs/list-of-instruments) available to you when writing a score in Alda.
 
 **Ex. 1**
 
@@ -37,7 +37,7 @@ It's possible in Alda to use the same note events for multiple instruments at on
 
     trumpet/trombone: c d e f g f e d c
 
-Keep in mind that Alda is still keeping track of each instrument's volume, tempo, octave, offset, etc. separately, which means it is up to the composer to ensure that the instruments are playing in sync, if that's what the composer wants. In ex. 3, the trumpet plays some repeated D notes at the start of the score, then an ascending D minor scale; the trombone also plays the D minor scale, however it starts at the beginning of the score, so it beats the trumpet to the punch. Ex. 4 shows a way to remedy this situation, in cases where the really want both instruments playing in unison. Ex. 5 shows another way to achieve the same effect using [markers](markers.md).
+Keep in mind that Alda is still keeping track of each instrument's volume, tempo, octave, offset, etc. separately, which means it is up to the composer to ensure that the instruments are playing in sync, if that's what the composer wants. In ex. 3, the trumpet plays some repeated D notes at the start of the score, then an ascending D minor scale; the trombone also plays the D minor scale, however it starts at the beginning of the score, so it beats the trumpet to the punch. Ex. 4 shows a way to remedy this situation, in cases where the really want both instruments playing in unison. Ex. 5 shows another way to achieve the same effect using [markers](../docs/markers).
 
 **Ex. 3**
 
@@ -113,7 +113,7 @@ Instrument names and nicknames must adhere to the following rules:
 
 ### How instances are assigned
 
-The details of how Alda creates and assigns instrument instances are [complicated](instance-and-group-assignment.md), but for practical purposes, you can avoid errors by following these simple rules:
+The details of how Alda creates and assigns instrument instances are [complicated](../docs/instance-and-group-assignment), but for practical purposes, you can avoid errors by following these simple rules:
 
 - If you assign a nickname to one instance of an instrument, then any other instance of that same instrument in your score must also have a nickname.
 

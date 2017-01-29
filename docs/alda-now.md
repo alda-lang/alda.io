@@ -7,9 +7,9 @@ permalink: /docs/alda-now
 
 # alda.now
 
-`alda.now`, when coupled with [`alda.lisp`](alda-lisp.md), provides a way to work with Alda scores and play music programmatically within a Clojure application.
+`alda.now`, when coupled with [`alda.lisp`](../docs/alda-lisp), provides a way to work with Alda scores and play music programmatically within a Clojure application.
 
-Of note, [`alda.repl`](alda-repl.md) and [`alda.server`](alda-server.md) both use `alda.now` as a means for managing and playing the user's scores. For advanced `alda.now` usage, you may find it useful to refer to the code in the `alda.repl` and `alda.server` namespaces, as they are essentially `alda.now` sample projects.
+Of note, [`alda.repl`](../docs/alda-repl) and [`alda.server`](../docs/alda-server) both use `alda.now` as a means for managing and playing the user's scores. For advanced `alda.now` usage, you may find it useful to refer to the code in the `alda.repl` and `alda.server` namespaces, as they are essentially `alda.now` sample projects.
 
 ## tl;dr
 

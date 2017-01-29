@@ -7,7 +7,7 @@ permalink: /docs/alda-worker
 
 # alda.worker
 
-`alda.worker` is the Clojure namespace containing the code run by each background Alda worker process. These processes are maintained by the [Alda server](alda-server.md) in such a way that the end user does not necessarily need to know about them. The client communicates with the server and the server utilizes its workers to respond to the client's requests.
+`alda.worker` is the Clojure namespace containing the code run by each background Alda worker process. These processes are maintained by the [Alda server](../docs/alda-server) in such a way that the end user does not necessarily need to know about them. The client communicates with the server and the server utilizes its workers to respond to the client's requests.
 
 Worker processes are spawned in the background when a server starts.
 
@@ -17,4 +17,4 @@ Each worker process has its own Alda environment, including its own MIDI Synthes
 
 ## See Also
 
-* [ZeroMQ Architecture](zeromq-architecture.md)
+* [ZeroMQ Architecture](../docs/zeromq-architecture)

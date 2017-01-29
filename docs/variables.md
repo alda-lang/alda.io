@@ -1,13 +1,13 @@
 ---
 layout: page
 title: Variables
-subtitle: 
+subtitle:
 permalink: /docs/variables
 ---
 
 # Variables
 
-Repetition is an important aspect of music. In addition to repeating notes and phrases, it is often desirable to repeat larger phrases or entire sections. This can be cumbersome with Alda's [repeat](repeats.md) syntax alone. For greater flexibility and cleaner code, you can define **variables** that represent named [sequences of events](sequences.md).
+Repetition is an important aspect of music. In addition to repeating notes and phrases, it is often desirable to repeat larger phrases or entire sections. This can be cumbersome with Alda's [repeat](../docs/repeats) syntax alone. For greater flexibility and cleaner code, you can define **variables** that represent named [sequences of events](../docs/sequences).
 
 ## Defining a variable
 
@@ -46,7 +46,7 @@ piano:
 
 ## Variables can be aliases
 
-Strictly speaking, the value of a variable does not need to be an event sequence; it can be an individual event. Why would you do this? You may find it convenient to create aliases for [attribute](attributes.md) changes to specific values:
+Strictly speaking, the value of a variable does not need to be an event sequence; it can be an individual event. Why would you do this? You may find it convenient to create aliases for [attribute](../docs/attributes) changes to specific values:
 
 ```
 quiet  = (vol 25)

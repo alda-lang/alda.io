@@ -7,4 +7,4 @@ permalink: /docs/installation
 
 # Installing Alda
 
-See the [installation instructions](../README.md#installation) in the README.
+See the [installation instructions](..docs//README#installation) in the README.

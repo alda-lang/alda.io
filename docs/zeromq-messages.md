@@ -15,7 +15,7 @@ permalink: /docs/zeromq-messages
 
 Asks the server to parse a string of Alda code.
 
-Options include `as`, which can be one of `lisp` or `map`, indicating whether the score should be parsed into [`alda.lisp`](alda-lisp.md) code or the final map of score data. When omitted, the default behavior is to parse as `lisp` code.
+Options include `as`, which can be one of `lisp` or `map`, indicating whether the score should be parsed into [`alda.lisp`](../docs/alda-lisp) code or the final map of score data. When omitted, the default behavior is to parse as `lisp` code.
 
 #### Example
 
@@ -74,7 +74,7 @@ Options include `from` and `to` strings, representing minute/second markings or 
 
 Asks a worker for its current status, e.g. parsing a score, playing a score, done.
 
-> Note that this message is sent not to the server, but to a specific worker. To do this, you add an extra frame with the worker's address. For more details, see [ZeroMQ Architecture#Message Structure](zeromq-architecture.md#message-structure).
+> Note that this message is sent not to the server, but to a specific worker. To do this, you add an extra frame with the worker's address. For more details, see [ZeroMQ Architecture#Message Structure](../docs/zeromq-architecture#message-structure).
 
 #### Example
 
@@ -152,4 +152,4 @@ Asks the server for its Alda version number.
 
 ## See Also
 
-* [ZeroMQ Architecture](zeromq-architecture.md)
+* [ZeroMQ Architecture](../docs/zeromq-architecture)

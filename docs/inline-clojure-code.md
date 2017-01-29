@@ -11,7 +11,7 @@ Alda allows score-writers to program in [Clojure](http://www.clojure.org) by wri
 
 From the perspective of Alda's parser, anything between parentheses is considered a Clojure expression. You can write Clojure expressions anywhere within in Alda score, alongside Alda syntax.
 
-Clojure expressions are evaluated in the context of the `alda.lisp` namespace, which gives you first-class access to the [alda.lisp](alda-lisp.md) DSL. For example, out of the box you can do things like:
+Clojure expressions are evaluated in the context of the `alda.lisp` namespace, which gives you first-class access to the [alda.lisp](../docs/alda-lisp) DSL. For example, out of the box you can do things like:
 
 ```clojure
 piano:

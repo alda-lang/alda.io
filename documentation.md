@@ -38,7 +38,7 @@ Hello! I'm an introductory paragraph, and this is the landing page for Alda's of
   * [offset](../docs/offset)
   * [attributes](../docs/attributes)
 
-* Peruse this list of [available instruments](list-of-instruments.md).
+* Peruse this list of [available instruments](../docs/list-of-instruments).
 
 ## How to Use the Docs
 

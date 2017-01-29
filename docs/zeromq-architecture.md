@@ -7,7 +7,7 @@ permalink: /docs/zeromq-architecture
 
 # ZeroMQ Architecture
 
-[ZeroMQ](http://zeromq.org) plays an important role in the way Alda works. Alda consists of several programs working together: the [client](alda-client.md), [server](alda-server.md), and [worker](alda-worker.md) processes. As a framework for inter-process communication, ZeroMQ is the glue that holds it all together.
+[ZeroMQ](http://zeromq.org) plays an important role in the way Alda works. Alda consists of several programs working together: the [client](../docs/alda-client), [server](../docs/alda-server), and [worker](../docs/alda-worker) processes. As a framework for inter-process communication, ZeroMQ is the glue that holds it all together.
 
 If you are new to ZeroMQ, the [ZeroMQ Guide](http://zguide.zeromq.org/page:all) is an excellent resource for learning about ZeroMQ and inter-process communication in general.
 
@@ -21,7 +21,7 @@ We are using JeroMQ 0.3.5, which is based on libzmq 3.2.5 (version string "3.2.5
 
 Below is a diagram showing the connections between an Alda client, server, and workers.
 
-![zeromq client/server/worker diagram](zeromq-architecture.png)
+![zeromq client/server/worker diagram](../docs/zeromq-architecture.png)
 
 There are two types of socket transactions here:
 
@@ -32,7 +32,7 @@ This is very close to the [Paranoid Pirate Pattern](http://zguide.zeromq.org/pag
 
 ## Message Structure
 
-> See [ZeroMQ Messages](zeromq-messages.md) for a comprehensive list of example messages sent by each of Alda's components.
+> See [ZeroMQ Messages](../docs/zeromq-messages) for a comprehensive list of example messages sent by each of Alda's components.
 
 ### Client
 
