@@ -1,3 +1,10 @@
+---
+layout: page
+title: Documentation
+subtitle: 
+permalink: /docs/etymology
+---
+
 # Etymology
 
 Alda was originally named after [Yggdrasil][yggdrasil], the venerated tree of Norse legend which held aloft the mythical nine worlds. Dave thought it to be a fitting name, imagining the realm of sound/music to be an immense tree bearing numerous branches which could represent genres, tonalities, paradigms, etc.

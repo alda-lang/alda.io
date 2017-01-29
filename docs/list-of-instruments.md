@@ -1,3 +1,10 @@
+---
+layout: page
+title: Documentation
+subtitle: 
+permalink: /docs/list-of-instruments
+---
+
 # List of Instruments
 
 Currently, only General MIDI instruments are supported. In the future, we plan to add [waveform synthesis](https://github.com/alda-lang/alda/issues/100) so that you will be able to use sine/square/triangle/sawtooth waves as well as complex synthesizers built from waveforms.

@@ -1,3 +1,10 @@
+---
+layout: page
+title: Documentation
+subtitle: 
+permalink: /docs/instance-and-group-assignment
+---
+
 # Instance and Group Assignment
 
 > Note: this is a comprehensive explanation of how instance and group assignment works, for the curious. The details below are complicated, but can be simplified as a [handful of simple rules](scores-and-parts.md#how-instances-are-assigned).

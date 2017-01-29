@@ -1,3 +1,10 @@
+---
+layout: page
+title: Documentation
+subtitle: 
+permalink: /docs/inline-clojure-code
+---
+
 # Inline Clojure Code
 
 Alda allows score-writers to program in [Clojure](http://www.clojure.org) by writing inline Clojure expressions alongside Alda code.

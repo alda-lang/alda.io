@@ -1,3 +1,10 @@
+---
+layout: page
+title: Documentation
+subtitle: 
+permalink: /docs/zeromq-architecture
+---
+
 # ZeroMQ Architecture
 
 [ZeroMQ](http://zeromq.org) plays an important role in the way Alda works. Alda consists of several programs working together: the [client](alda-client.md), [server](alda-server.md), and [worker](alda-worker.md) processes. As a framework for inter-process communication, ZeroMQ is the glue that holds it all together.

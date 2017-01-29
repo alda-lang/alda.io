@@ -19,7 +19,7 @@ Hello! I'm an introductory paragraph, and this is the landing page for Alda's of
 
 ## Where to Start
 
-* [Installing Alda](.docs/README.md#installation)
+* [Installing Alda](./documentation/README.md#installation)
 
   * [Updating Alda](./documentation/README.md#updating-alda)
 

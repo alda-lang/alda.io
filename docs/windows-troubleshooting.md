@@ -1,3 +1,10 @@
+---
+layout: page
+title: Troubleshooting
+subtitle: 
+permalink: /docs/windows-troubleshooting
+---
+
 # Troubleshooting on Windows
 
 ## RegCreatKeyEx errors
