@@ -1,6 +1,6 @@
 ---
 layout: page
-title: README
+title: Chords
 subtitle: 
 permalink: /docs/chords
 ---

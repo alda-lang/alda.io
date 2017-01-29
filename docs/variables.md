@@ -1,6 +1,6 @@
 ---
 layout: page
-title: README
+title: Variables
 subtitle: 
 permalink: /docs/variables
 ---

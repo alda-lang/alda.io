@@ -1,6 +1,6 @@
 ---
 layout: page
-title: README
+title: Alda Server
 subtitle: 
 permalink: /docs/alda-server
 ---

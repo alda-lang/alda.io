@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Troubleshooting
+title: Windows Troubleshooting
 subtitle: 
 permalink: /docs/windows-troubleshooting
 ---

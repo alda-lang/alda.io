@@ -1,6 +1,6 @@
 ---
 layout: page
-title: README
+title: Repeats
 subtitle: 
 permalink: /docs/repeats
 ---

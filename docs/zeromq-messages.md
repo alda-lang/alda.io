@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Documentation
+title: ZeroMQ Messages
 subtitle: 
 permalink: /docs/zeromq-messages
 ---

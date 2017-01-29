@@ -29,7 +29,7 @@ Hello! I'm an introductory paragraph, and this is the landing page for Alda's of
 
 * Learn about the [etymology](etymology.md) behind the name Alda.
 
-* The article on [scores and parts](scores-and-parts.md) provides some good general information on what an Alda score is. After that, you may be interested in learning more about the fundamental pieces of an Alda score:
+* The article on [scores and parts](../docs/scores-and-parts) provides some good general information on what an Alda score is. After that, you may be interested in learning more about the fundamental pieces of an Alda score:
   * [notes](../docs/notes)
   * [rests](../docs/rests)
   * [chords](../docs/chords)

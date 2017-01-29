@@ -1,6 +1,6 @@
 ---
 layout: page
-title: README
+title: The Alda Command-Line Client
 subtitle: 
 permalink: /docs/alda-client
 ---

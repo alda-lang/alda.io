@@ -1,6 +1,6 @@
 ---
 layout: page
-title: README
+title: Notes
 subtitle:
 permalink: /docs/notes
 ---

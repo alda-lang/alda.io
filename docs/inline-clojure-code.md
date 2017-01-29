@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Documentation
+title: Inline Clojure Code
 subtitle: 
 permalink: /docs/inline-clojure-code
 ---

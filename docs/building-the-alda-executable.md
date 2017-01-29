@@ -1,6 +1,6 @@
 ---
 layout: page
-title: README
+title: Building the Alda executable
 subtitle: 
 permalink: /docs/building-the-alda-executable
 ---

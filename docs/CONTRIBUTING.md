@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Documentation
+title: Contributing to Alda
 subtitle: 
 permalink: /docs/CONTRIBUTING
 ---

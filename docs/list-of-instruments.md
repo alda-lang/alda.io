@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Documentation
+title: List of Instruments
 subtitle: 
 permalink: /docs/list-of-instruments
 ---

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: README
+title: Alda worker
 subtitle: 
 permalink: /docs/alda-worker
 ---

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: README
+title: Sequences
 subtitle: 
 permalink: /docs/sequences
 ---

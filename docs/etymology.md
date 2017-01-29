@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Documentation
+title: Etymology
 subtitle: 
 permalink: /docs/etymology
 ---

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: README
+title: Voices
 subtitle: 
 permalink: /docs/voices
 ---

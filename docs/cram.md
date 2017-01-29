@@ -1,6 +1,6 @@
 ---
 layout: page
-title: README
+title: C.R.A.M.
 subtitle: 
 permalink: /docs/cram
 ---

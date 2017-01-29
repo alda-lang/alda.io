@@ -1,6 +1,6 @@
 ---
 layout: page
-title: README
+title: alda.now
 subtitle: 
 permalink: /docs/alda-now
 ---

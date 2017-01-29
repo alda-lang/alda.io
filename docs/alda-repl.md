@@ -1,6 +1,6 @@
 ---
 layout: page
-title: README
+title: Alda REPL
 subtitle: 
 permalink: /docs/alda-repl
 ---

@@ -1,8 +1,8 @@
 ---
 layout: page
-title: README
+title: Scores and Parts
 subtitle: 
-permalink: /docs/score-and-parts
+permalink: /docs/scores-and-parts
 ---
 
 # Scores and Parts

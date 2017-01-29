@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Documentation
+title: Instance and Group Assignment
 subtitle: 
 permalink: /docs/instance-and-group-assignment
 ---
