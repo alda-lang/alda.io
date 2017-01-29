@@ -1,3 +1,10 @@
+---
+layout: page
+title: Documentation
+subtitle: 
+permalink: /docs/CONTRIBUTING
+---
+
 # Contributing to Alda
 
 The Alda project is composed of a number of subprojects, each of which has its own GitHub repo:

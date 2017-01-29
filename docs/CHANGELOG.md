@@ -1,3 +1,10 @@
+---
+layout: page
+title: Documentation
+subtitle: 
+permalink: /docs/CHANGELOG
+---
+
 # CHANGELOG
 
 ## 1.0.0-rc56 (2017-01-14)
