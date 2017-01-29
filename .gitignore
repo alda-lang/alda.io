@@ -3,3 +3,7 @@ _site
 .ruby-version
 
 resources
+
+docs/.DS_Store
+
+.DS_Store

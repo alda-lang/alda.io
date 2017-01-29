@@ -19,13 +19,13 @@ Hello! I'm an introductory paragraph, and this is the landing page for Alda's of
 
 ## Where to Start
 
-* [Installing Alda](./documentation/README.md#installation)
+* [Installing Alda](../docs/README#installation)
 
-  * [Updating Alda](./documentation/README.md#updating-alda)
+  * [Updating Alda](../docs/README#updating-alda)
 
-  * [MIDI soundfonts](./documentation/README.md#midi-soundfonts)
+  * [MIDI soundfonts](../docs/README#midi-soundfonts)
 
-  * [Editor plugins](./documentation/README.md#editor-plugins)
+  * [Editor plugins](../docs/README#editor-plugins)
 
 * Learn about the [etymology](../docs/etymology) behind the name Alda.
 
