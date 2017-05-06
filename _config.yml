@@ -1,13 +1,7 @@
 # Site settings
 title: alda.io
 description: >
-  Inspired by other music/audio programming languages such as PPMCK, LilyPond
-  and ChucK, Alda aims to be a powerful and flexible programming language for
-  the musician who wants to easily compose and generate music on the fly, using
-  naught but a text editor. Alda is designed in a way that equally favors
-  aesthetics, flexibility and ease of use, with (eventual) support for the
-  text-based creation of all manner of music: classical, popular, chiptune,
-  electroacoustic, and more!
+  Alda is a text-based programming language for music composition. It allows you to write and play back music using nothing but a text editor. The language's design equally favors aesthetics, flexibility and ease of use.
 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://alda.io" # the base hostname & protocol for your site
