@@ -15,6 +15,8 @@ Alda is a text-based programming language for music composition. It allows you t
 
 The language's design equally favors aesthetics, flexibility and ease of use.
 
+---
+
 ## Features
 
 * Easy to understand, markup-like syntax.
