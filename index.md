@@ -1,20 +1,21 @@
 ---
 layout: page
-title: Alda?
-subtitle: What is Alda?
-permalink: /about/
+title: Alda
+subtitle: A music programming language for musicians
+sitemap:
+  priority: 0.9
 ---
 
-Alda (the Quenya word for *tree*) aims to be a powerful and flexible programming language for the musician who wants to easily compose and generate music on the fly, using naught but a text editor.
+Alda is a text-based programming language for music composition. It allows you to write and play back music using nothing but a text editor.
 
     piano: o3
     g8 a b > c d e f+ g | a b > c d e f+ g4
     g8 f+ e d c < b a g | f+ e d c < b a g4
     << g1/>g/>g/b/>d/g
 
-Alda is designed in a way that equally favors aesthetics, flexibility and ease of use.
+The language's design equally favors aesthetics, flexibility and ease of use.
 
-## Features ##
+## Features
 
 * Easy to understand, markup-like syntax.
 
