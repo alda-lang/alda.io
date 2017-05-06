@@ -1,38 +1,37 @@
 <header class="header">
-    <div class="navigation">
-        <a href="/" class="logo"><img src="../images/alda_logo.png" alt="Alda logo" width="128px" height="128px" style="margin:0;display:inline;"></a>
-
-        <ul class="menu" style="display:block;float:right;">
-            <li class="menu__entry"><a href="{{ '/about' | prepend: site.baseurl }}">About</a></li>
-            <li class="menu__entry"><a href="{{ '/download' | prepend: site.baseurl }}">Download</a></li>
-            <li class="menu__entry"><a href="{{ '/tutorial' | prepend: site.baseurl }}">Tutorial</a></li>
-            <li class="menu__entry"><a href="https://github.com/alda-lang/alda/blob/master/doc/index.md">Documentation</a></li>
-            <li class="menu__entry"><a href="{{ '/cheat-sheet' | prepend: site.baseurl }}">Cheat Sheet</a></li>
-        </ul>
-    </div>
-
-    <ul class="social-links">
-        {% if site.author.github %}
-            <a href="https://github.com/{{ site.author.github }}" class="social-links__entry" target="_blank">
-                <i class="fa fa-github"></i>
-            </a>
-        {% endif %}
-
-        {% if site.author.twitter %}
-            <a href="https://twitter.com/{{ site.author.twitter }}" class="social-links__entry" target="_blank">
-                <i class="fa fa-twitter"></i>
-            </a>
-        {% endif %}
-
-        {% if site.author.reddit %}
-        <a href="https://reddit.com/r/{{ site.author.reddit }}" class="social-links__entry" target="_blank">
-          <i class="fa fa-reddit"></i>
-        </a>
-        {% endif %}
-
-        <br>
-        <br>
-
-        <script async defer src="http://slack.alda.io/slackin.js"></script>
+  <div class="navigation">
+    <a href="/" class="logo"></a>
+    <ul class="menu" style="display:block;float:right;">
+      <li class="menu__entry"><a href="{{ '/about' | prepend: site.baseurl }}">About</a></li>
+      <li class="menu__entry"><a href="{{ '/download' | prepend: site.baseurl }}">Download</a></li>
+      <li class="menu__entry"><a href="{{ '/tutorial' | prepend: site.baseurl }}">Tutorial</a></li>
+      <li class="menu__entry"><a href="https://github.com/alda-lang/alda/blob/master/doc/index.md">Documentation</a></li>
+      <li class="menu__entry"><a href="{{ '/cheat-sheet' | prepend: site.baseurl }}">Cheat Sheet</a></li>
     </ul>
+  </div>
+
+  <ul class="social-links">
+    {% if site.author.github %}
+    <a href="https://github.com/{{ site.author.github }}" class="social-links__entry" target="_blank">
+      <i class="fa fa-github"></i>
+    </a>
+    {% endif %}
+
+    {% if site.author.twitter %}
+    <a href="https://twitter.com/{{ site.author.twitter }}" class="social-links__entry" target="_blank">
+      <i class="fa fa-twitter"></i>
+    </a>
+    {% endif %}
+
+    {% if site.author.reddit %}
+    <a href="https://reddit.com/r/{{ site.author.reddit }}" class="social-links__entry" target="_blank">
+      <i class="fa fa-reddit"></i>
+    </a>
+    {% endif %}
+
+    <br>
+    <br>
+
+    <script async defer src="http://slack.alda.io/slackin.js"></script>
+  </ul>
 </header>

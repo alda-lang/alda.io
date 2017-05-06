@@ -11,7 +11,8 @@ The latest release is [available for download on GitHub](https://github.com/alda
 
 After downloading the `alda` (or `alda.exe`) program, follow [these instructions](https://github.com/alda-lang/alda#installation) to make it available for use in your terminal.
 
-[\| Changelog ](https://github.com/alda-lang/alda/blob/master/CHANGELOG.md)
-[\| Source Code ](https://github.com/alda-lang/alda)
-[\| Bug Tracker ](https://github.com/alda-lang/alda/issues)
-[\| Docs \|](https://github.com/alda-lang/alda/blob/master/doc/index.md)
+\| [Changelog](https://github.com/alda-lang/alda/blob/master/CHANGELOG.md)
+\| [Source Code](https://github.com/alda-lang/alda)
+\| [Bug Tracker](https://github.com/alda-lang/alda/issues)
+\| [Docs](https://github.com/alda-lang/alda/blob/master/doc/index.md)
+\|

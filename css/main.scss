@@ -6,9 +6,15 @@ sitemap:
 @charset "utf-8";
 
 /* =Colors */
-$dorian: #F5F5F5;
-$iron: #333333;
-$cloudy: #828282;
+$dorian: #F5F5F5; // replace w/ bluegray
+$iron  : #333333; // replace w/ white
+$cloudy: #828282; // replace w/ lightgray
+
+$calmblue:   #405F95;
+$bluegray:   #6B85A7;
+$lightgray:  #AEB3C0;
+$mediumgray: #999EA9;
+$white:      #F6F8F7;
 
 @import
     "mixins",
