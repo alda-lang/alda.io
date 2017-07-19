@@ -4,7 +4,7 @@ description: >
   Alda is a text-based programming language for music composition. It allows you to write and play back music using nothing but a text editor. The language's design equally favors aesthetics, flexibility and ease of use.
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://alda.io" # the base hostname & protocol for your site
+url: "https://alda.io" # the base hostname & protocol for your site
 
 author:
   fullname: Dave Yarwood
