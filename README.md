@@ -9,3 +9,9 @@ For local development, install the Jekyll gem and run `jekyll serve --watch`, th
 ## Contributing
 
 Pull requests welcome!
+
+## License
+
+Copyright © 2012-2018 Dave Yarwood et al
+
+Distributed under the Eclipse Public License version 2.0.
