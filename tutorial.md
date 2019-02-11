@@ -7,13 +7,16 @@ permalink: /tutorial/
 
 # Alda 101 #
 
+Once you've [installed Alda][install], run `alda up` to start an Alda server in
+the background. This will take a minute, but then after that, you can leave the
+server running and you won't need to start it again (at least, not until the
+next time you restart your computer).
+
+[install]: https://github.com/alda-lang/alda#installation
+
 We will use the Alda REPL at first, to experiment a little with Alda syntax. To start the REPL, type:
 
     alda repl
-
-When the REPL is up and running, you should see something like this:
-
-![Alda REPL](/images/alda_repl.png)
 
 You can type snippets of Alda code into the REPL, press Enter, and hear the results instantly.
 
@@ -133,9 +136,12 @@ To exit the Alda REPL, type `bye` and press Enter.
 
 So far, we have been feeding Alda some code, line by line, and hearing the result each time. This is a good way to test the waters and see how small pieces of code sound before you commit to them. When you’re ready to set some music down in stone, it’s time to write a score.
 
-In Alda, a score is just a text file. You can use any text editor you’d like to create this text file. By convention, the file’s name should end in `.alda`. Create a blank text file in whatever directory you’re currently in in your terminal, and name it `test.alda`.
+To Alda, a score is just a text file. You can use any text editor you’d like to
+create this text file. By convention, the file’s name should end in `.alda`.
+Create a blank text file in whatever directory you’re currently in in your
+terminal, and name it `test.alda`.
 
-Type the following `into test.alda`:
+Type the following into `test.alda`:
 
     bassoon: o2 d8 e (quant 30) f+ g (quant 99) a2
 
@@ -152,10 +158,6 @@ Try editing `test.alda` to look like this:
     bassoon: o2 d8 e (quant 30) (vol 65) f+ g (quant 99) a2
 
 Run `alda play --file test.alda` again to hear the difference in volume between the first two and last three notes.
-
-As an aside: you may have noticed there is a little bit of a wait every time you run an `alda` command. This is an unfortunate side effect of Alda being a Clojure project; Clojure has a notoriously slow start-up time. You might prefer to use the Alda REPL to experiment – once the REPL is started up, you will hear the results of each line of code instantly.
-
-It’s also worth noting that in the near future, Alda will be available as an ahead-of-time-compiled, standalone executable, which should speed things up a bit.
 
 ## Multiple instruments ##
 
@@ -212,4 +214,11 @@ Using markers is a two-step process. Place a marker by sticking a `%` before the
     trombone: o3 e8 f g a b > c d e4.~2
     tuba: @last-note o2 c4.~2
 
-So, that’s Alda in a nutshell. Please don’t hesitate to [e-mail me](mailto:dave.yarwood@gmail.com?subject=alda) if you have any questions about how to do something in Alda. Or, better yet, if you’re a Clojure programmer and you like open-source software, consider [contributing!](https://github.com/alda-lang/alda/blob/master/CONTRIBUTING.md) Pull requests are warmly accepted.
+So, that’s Alda in a nutshell.
+
+If you'd like to go deeper, check out [the docs][docs] or come chat with us on
+[Slack][slack]!
+
+[docs]: https://github.com/alda-lang/alda/blob/master/doc/index.md
+[slack]: https://slack.alda.io
+
