@@ -21,14 +21,20 @@ The language's design equally favors aesthetics, flexibility and ease of use.
 
 * Easy to understand, markup-like syntax.
 
-* Perfect for musicians who don't know how to program and programmers who don't know how to music.
+* Designed for musicians who don't know how to program, and programmers who
+  don't know how to music.
 
-* Represent scores as text files and play them back with the alda command-line tool.
+* A score is a text file that can be played using the `alda` command-line tool.
 
-* Interactive REPL lets you type Alda code and hear the results in real time.
+* [Interactive REPL][doc-repl] lets you enter Alda code and hear the results in
+  real time.
 
-* Underlying Clojure DSL allows you to use Alda directly in your Clojure project.
+* Supports [writing music programmatically][doc-programmatic] (for algorithmic
+  composition, live coding, etc.)
 
-* Inline Clojure code allows you to hack the Gibson and write scores programmatically.
+* Create MIDI music using any of the instruments in the [General MIDI Sound
+  Set][gm-sound-set].
 
-* Create MIDI music using any of the instruments in the General MIDI Sound Set.
+[doc-repl]: https://github.com/alda-lang/alda/blob/master/doc/alda-repl.md
+[doc-programmatic]: https://github.com/alda-lang/alda/blob/master/doc/writing-music-programmatically.md
+[gm-sound-set]: http://www.midi.org/techspecs/gm1sound.php
