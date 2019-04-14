@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/daveyarwood
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://alda.io
+  * I am daveyarwood (https://keybase.io/daveyarwood) on keybase.
+  * I have a public key ASB6ddX1Ndj1kkDK0O_jMhphWldMoERIjUmxh0uz6Bch0go
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01207a75d5f535d8f59240cad0efe3321a615a574ca044488d49b1874bb3e81721d20a",
+      "host": "keybase.io",
+      "kid": "01207a75d5f535d8f59240cad0efe3321a615a574ca044488d49b1874bb3e81721d20a",
+      "uid": "96a9469c10b6c2228452ae7a9b052719",
+      "username": "daveyarwood"
+    },
+    "merkle_root": {
+      "ctime": 1555217030,
+      "hash": "ecea29789bcb9fe4b84a58b3c4bf1a65648132dc495fe6b676925a1f7e81f8a6648367aec12604ee5afb6fd286f6514b004d0a68498a063faa0c01fe85f38d09",
+      "hash_meta": "1b19e11109e5ca9c1f0518aad2523708f32970b142e44affa3fae10b79c8d204",
+      "seqno": 5163828
+    },
+    "service": {
+      "entropy": "Atk2mLZoycGZDAEiBHmYZpVU",
+      "hostname": "alda.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "3.2.1"
+  },
+  "ctime": 1555217100,
+  "expire_in": 504576000,
+  "prev": "50b2b2d2d9572f4f7d52ee5a8dfe8b27bae1702ea622b6f0f0109fadd71bf16a",
+  "seqno": 54,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgenXV9TXY9ZJAytDv4zIaYVpXTKBESI1JsYdLs+gXIdIKp3BheWxvYWTESpcCNsQgULKy0tlXL099Uu5ajf6LJ7rhcC6mIrbw8BCfrdcb8WrEIC/BL5dtcKSiLcY2av8SZyedhRYNtRBWIXb73DvuaxNMAgHCo3NpZ8RALOvFzZUKY97mUh1cZZNYJ2k6bCzOk1pYPXHp6LQWs7Bbl1VVqUSUGEDu0x2OUd8f9maROX4iPOxjLO4iJ2pZCKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIPAt44prR5l86gNIvVaD116kLhf2l2UZrB1FEiyNBmxbo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/daveyarwood
+
+==================================================================
