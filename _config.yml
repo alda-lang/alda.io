@@ -8,7 +8,7 @@ url: "https://alda.io" # the base hostname & protocol for your site
 
 author:
   fullname: Dave Yarwood
-  github: alda-lang
+  github: alda-lang/alda
   reddit: alda
 
 # Syntax highlighting
