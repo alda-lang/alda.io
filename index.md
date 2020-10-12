@@ -1,17 +1,22 @@
 ---
 layout: page
 title: Alda
+hide_title: true
 subtitle: A music programming language for musicians
 sitemap:
   priority: 0.9
 ---
 
-Alda is a text-based programming language for music composition. It allows you to write and play back music using nothing but a text editor.
+Alda is a text-based programming language for music composition. It allows you
+to write and play back music using only a text editor and the command line.
 
-    piano: o3
-    g8 a b > c d e f+ g | a b > c d e f+ g4
-    g8 f+ e d c < b a g | f+ e d c < b a g4
-    << g1/>g/>g/b/>d/g
+```alda
+piano:
+  o3
+  g8 a b > c d e f+ g | a b > c d e f+ g4
+  g8 f+ e d c < b a g | f+ e d c < b a g4
+  << g1/>g/>g/b/>d/g
+```
 
 The language's design equally favors aesthetics, flexibility and ease of use.
 
@@ -21,8 +26,8 @@ The language's design equally favors aesthetics, flexibility and ease of use.
 
 * Easy to understand, markup-like syntax.
 
-* Designed for musicians who don't know how to program, and programmers who
-  don't know how to music.
+* Designed for musicians who don't know how to program, as well as programmers
+  who don't know how to music.
 
 * A score is a text file that can be played using the `alda` command-line tool.
 

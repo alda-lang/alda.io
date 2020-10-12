@@ -1,23 +1,43 @@
 /* =Base */
 body {
-  font-family: 'Source Code Pro', monospace;
-  color: $white;
-  background-color: $bluegray;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  color: $black;
+  background-color: $beige;
 }
 
 a {
-  color: $lightgray;
-  font-weight: bold;
-  text-decoration: none;
-
-  &:hover {
-    color: $white;
+  padding: 0 4px;
+  &:link, &:visited {
+    color: $lightblue;
+    text-decoration: none;
   }
+  &:hover, &:active {
+    color: $beige;;
+    background-color: $lightblue;
+    text-decoration: none;
+  }
+}
+
+a.img-link {
+  background-color: transparent;
 }
 
 p {
   font-size: 20px;
   line-height: 32px;
+}
+
+pre {
+  width: 85%;
+  margin: 0 auto;
+  padding: 15px;
+  background-color: $lightgray;
+  color: $black;
+}
+
+:not(pre) > code {
+  background: $lightgray;
+  padding: 4px;
 }
 
 img {
@@ -39,7 +59,7 @@ blockquote {
     position: absolute;
     bottom: -35px;
     font-size: 15px;
-    color: $white;
+    color: $black;
     letter-spacing: 0px;
     left:0px;
     right: 0px;
@@ -59,60 +79,81 @@ blockquote {
 }
 
 strong {
-  color: $white;
+  color: $black;
 }
 
-/* =Header */
 .wrapper {
-  max-width: 800px;
-  margin: 100px auto;
+  max-width: 940px;
+  margin: 10px auto;
+}
+
+.empty-title {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  border-top: 1px solid $lightgray;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid $lightgray;
+}
+
+.page-title {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  padding: 10px 0;
+  border-top: 1px solid $lightgray;
+  border-bottom: 1px solid $lightgray;
 }
 
 .header {
-  overflow: hidden;
+  position: relative;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 6em;
+  border-top: 1px solid $lightgray;
+  padding: 2em 0;
+  color: $mediumgray;
 }
 
 .navigation {
-  float:left;
+  margin-left: 20px;
+  margin-top: -25px;
 }
 
 .logo {
-  background: transparent url('/images/alda_logo_alt.png') center top no-repeat;
-  background-size: 360px 128px;
   width: 360px;
   height: 128px;
   margin: 0;
 
   font-size: 50px;
   font-weight: 700;
-  color: $white;
+  color: $black;
   display: block;
-
-  &:hover {
-    background-image: url('/images/alda_logo_alt_focus.png');
-  }
 }
 
 .menu {
   color: $lightgray;
   font-size: 18px;
-  margin:0px;
-  margin-top: 6px;
+  margin: 0 0 10px;
   padding: 0px;
   list-style-type: none;
+  position: absolute;
 }
 
 .menu__entry {
   display: inline-block;
-  margin-right: 35px;
+  margin-right: 25px;
 
   &:last-child {
     margin-right: 0px;
   }
-}
-
-.menu__entry a {
-  font-weight: 400;
 }
 
 .social-links {
@@ -128,12 +169,6 @@ strong {
 }
 
 /* =Titles */
-.page-title {
-  margin-top:100px;
-  margin-bottom:125px;
-  text-align: center;
-}
-
 .page-title__text {
   font-weight: 700;
   font-size: 70px;
@@ -171,7 +206,7 @@ strong {
 
 .post-teaser__title {
   font-size: 22px;
-  color: $white;
+  color: $black;
 }
 
 .post-teaser__date {
@@ -184,7 +219,7 @@ strong {
 .empty-post-list {
   font-size: 22px;
   font-weight: 700;
-  color: $white;
+  color: $black;
   text-align: center;
 }
 
@@ -218,7 +253,7 @@ strong {
 }
 
 .categories__item a {
-  color: $white;
+  color: $black;
 }
 
 .categories__item:after {
@@ -274,11 +309,6 @@ strong {
   .social-links {
     font-size: 30px;
     margin-top: 35px;
-  }
-
-  .page-title {
-    margin-top: 80px;
-    margin-bottom: 60px;
   }
 
   .page-title__text {

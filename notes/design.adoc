@@ -1,0 +1,17 @@
+= Design
+
+== Fonts
+
+* Roboto Mono
+
+== Color palette
+
+"Snow Globe" palette::
+* #000000 (black, text color)
+* #35c0ed (light blue, icon color)
+* #9aeba6 (light green)
+* #e3e3e3 (gray)
+* #f5f5f5 (beige, logo background)
+
+Other colors::
+* #909090 (a darker gray i ended up using in inkscape)
