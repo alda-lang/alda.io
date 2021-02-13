@@ -52,7 +52,15 @@ Let’s add some more notes.
 g a b > c
 ```
 
-You should hear the piano continuing upwards in the C major scale. An interesting thing to note here is the `>`. This is Alda syntax for “go up to the next octave.” An octave, in scientific pitch notation, starts on a C and goes up to a B. Once you go above that B, the notes start over from C and you are in a new octave. In Alda, each instrument starts in octave 4, and remains in that octave until you tell it to change octaves. You can do that in one of two ways: you can use `<` and `>` to go down or up by one octave; or, you can jump to a specific octave using `o` followed by a number. For example:
+You should hear the piano continuing upwards in the C major scale. An
+interesting thing to note here is the `>`. This is Alda syntax for “go up to the
+next octave.” An octave, in [scientific pitch
+notation][scientific-pitch-notation], starts on a C and goes up to a B. Once you
+go above that B, the notes start over from C and you are in a new octave. In
+Alda, each instrument starts in octave 4, and remains in that octave until you
+tell it to change octaves. You can do that in one of two ways: you can use `<`
+and `>` to go down or up by one octave; or, you can jump to a specific octave
+using `o` followed by a number. For example:
 
 ![score octaves 2](/images/score03.png)
 
@@ -110,7 +118,8 @@ r2 c | r4 c r8 c r4
 
 ### Dotted notes
 
-You can use dotted notes, too. Simply add one or more `.`s onto the end of a note length.
+You can use [dotted notes][dotted-notes], too. Simply add one or more `.`s onto
+the end of a note length.
 
 ![score dots](/images/score08.png)
 
@@ -277,6 +286,8 @@ So, that’s Alda in a nutshell.
 If you'd like to go deeper, check out [the docs][docs] or come chat with us on
 [Slack][slack]!
 
+[scientific-pitch-notation]: https://en.wikipedia.org/wiki/Scientific_pitch_notation
+[dotted-notes]: https://en.wikipedia.org/wiki/Dotted_note
+
 [docs]: https://github.com/alda-lang/alda/blob/master/doc/index.md
 [slack]: https://slack.alda.io
-
