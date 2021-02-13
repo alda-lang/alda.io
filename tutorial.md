@@ -181,7 +181,13 @@ Then, run `alda play --file test.alda`. You should hear a nimble bassoon melody.
 
 ## Attributes
 
-You may have noticed that I snuck in a new syntax here. I was going to get to that, I promise! `(quant XX)` (where `XX` is a number from 0-99) essentially changes the length of a note, without changing its duration. The number argument represents the percentage of the note’s full length that is heard. Notice, when you play back the bassoon melody above, how the F# and G notes (quantized at 30%) are short and staccato, whereas the final A note (quantized at 99%) is long and legato.
+You may have noticed that I snuck in a new syntax here. I was going to get to
+that, I promise! `(quant XX)` (where `XX` is a number from 0-99) essentially
+changes the _length_ of a note, without changing its _duration_. The number
+argument represents the percentage of the note’s full length that is heard.
+Notice, when you play back the bassoon melody above, how the F# and G notes
+(quantized at 30%) are short and _staccato_, whereas the final A note (quantized
+at 99%) is long and _legato_.
 
 `quant` (short for `quantization`) is one example of an attribute that you can set within an Alda score. volume is another example; it lets you set the volume of the notes to come. Like most attributes, `volume` (which can be abbreviated as `vol`) is also expressed as a number between 0 and 100.
 
@@ -242,15 +248,23 @@ trombone: o3 e8 f g a b > c d e4.
 
 We’ve already gone over a lot, but I’d like to show you how to do just one more thing in Alda – it’s an important one because it helps you keep your instruments synchronized in perfect time.
 
-The concept behind markers is assigning a name to a moment in time. A name can contain letters, numbers, apostrophes, dashes, pluses, and parentheses, and the first two characters must be letters. The following are all examples of valid marker names:
+The concept behind markers is _assigning a name to a moment in time_. A name can
+contain letters, numbers, apostrophes, dashes, pluses, and parentheses, and the
+first two characters must be letters. The following are all examples of valid
+marker names:
 
-* chorus
-* voiceIn
-* last-note
-* verse(2)
-* bass+drums
+* `chorus`
+* `voiceIn`
+* `last-note`
+* `verse(2)`
+* `bass+drums`
 
-Using markers is a two-step process. Place a marker by sticking a `%` before the name, and then jump to it by sticking a `@` before the name. To demonstrate, let’s go back to our trumpet and trombone example. Let’s have a tuba come in right on the last note. We can do that by placing a marker in either the trumpet or trombone part, right before the last note, and then jump to that marker in the tuba part that we’ll create:
+Using markers is a two-step process. _Place_ a marker by sticking a `%` before
+the name, and then _jump to it_ by sticking a `@` before the name. To
+demonstrate, let’s go back to our trumpet and trombone example. Let’s have a
+tuba come in right on the last note. We can do that by placing a marker in
+either the trumpet or trombone part, right before the last note, and then jump
+to that marker in the tuba part that we’ll create:
 
 ```alda
 trumpet:  o4 c8 d e f g a b > %last-note c4.~2
