@@ -7,14 +7,11 @@ permalink: /tutorial/
 
 # Alda 101
 
-Once you've [installed Alda][install], run `alda up` to start an Alda server in
-the background. This will take a minute, but then after that, you can leave the
-server running and you won't need to start it again (at least, not until the
-next time you restart your computer).
+_Before we get started, go ahead and [install Alda][install], if you haven't
+already!_
 
-[install]: {{ "/install" | prepend: site.baseurl }}
-
-We will use the Alda REPL at first, to experiment a little with Alda syntax. To start the REPL, type:
+We will use the Alda REPL (**R**ead-**E**valuate-**P**lay **L**oop) at first, to
+experiment a little with Alda syntax. To start the REPL, type:
 
 ```alda
 alda repl
@@ -40,7 +37,11 @@ Try typing this into the REPL and pressing Enter… nothing happens. Why? Well, 
 piano: c d e f
 ```
 
-Now you should hear a piano playing those four notes. You will also notice that the prompt has changed from `>` to `p>`. `p` is short for `piano`, and it signifies that the piano is the only currently active instrument. Until you change instruments, any notes that you enter into the REPL will continue to be played by the piano.
+Now you should hear a piano playing those four notes.
+
+It's important to note that the piano is now the currently active instrument.
+Until you change instruments, any notes that you enter into the REPL will
+continue to be played by the piano.
 
 ## Octaves
 
@@ -149,7 +150,9 @@ o4 c1/e-/g/b
 
 Notice that, just like with a sequence of consecutive notes, specifying a note length on one note of a chord will make that the default note length for all subsequent notes.
 
-A convenient feature of Alda is that the notes in a chord do not need to be the same length. This can be convenient when writing pieces of music that feature melodies weaving in and out of chords:
+A convenient feature of Alda is that the notes in a chord do not need to be the
+same length. This can be useful if you're writing a piece of music that features
+a melody weaving in and out of chords:
 
 ![score chords 2](/images/score11.png)
 
@@ -169,7 +172,7 @@ Another way to represent notes played at the same time in Alda is with voices. T
 V1: o5 c4 < b a g | e1     V2: o4 c1/e/g | < g+/b
 ```
 
-To exit the Alda REPL, type `bye` and press Enter.
+To exit the Alda REPL, press `Ctrl+D` or enter `:quit`.
 
 # Writing a score
 
@@ -203,7 +206,7 @@ at 99%) is long and _legato_.
 Try editing `test.alda` to look like this:
 
 ```alda
-bassoon: o2 d8 e (quant 30) (vol 65) f+ g (quant 99) a2
+bassoon: o2 d8 e (quant 30) (vol 50) f+ g (quant 99) a2
 ```
 
 Run `alda play --file test.alda` again to hear the difference in volume between the first two and last three notes.
@@ -286,8 +289,8 @@ So, that’s Alda in a nutshell.
 If you'd like to go deeper, check out [the docs][docs] or come chat with us on
 [Slack][slack]!
 
+[install]: {{ "/install" | prepend: site.baseurl }}
 [scientific-pitch-notation]: https://en.wikipedia.org/wiki/Scientific_pitch_notation
 [dotted-notes]: https://en.wikipedia.org/wiki/Dotted_note
-
 [docs]: https://github.com/alda-lang/alda/blob/master/doc/index.md
 [slack]: https://slack.alda.io
