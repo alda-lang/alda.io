@@ -33,8 +33,8 @@ In a new terminal, run these commands to verify that you've installed Alda
 correctly:
 
 {% highlight bash %}
-alda up
 alda version
+alda doctor
 alda --help
 alda play -c '(tempo! 160) trumpet: (quant 60) f12 b- > d f6 d12 f1'
 {% endhighlight %}
