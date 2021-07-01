@@ -62,8 +62,6 @@ req.addEventListener("load", function() {
     return unexpectedResponse(res);
   }
 
-  // I'd rather use string interpolation here, but Vim doesn't syntax highlight
-  // it correctly, and I don't feel like digging into that at the moment.
   document
     .getElementById("step-2-download-alda")
     .innerText =
