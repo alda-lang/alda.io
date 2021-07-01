@@ -32,7 +32,7 @@ the latest stable release from [AdoptOpenJDK].
 In a new terminal, run these commands to verify that you've installed Alda
 correctly:
 
-{% highlight bash %}
+{% highlight text %}
 alda version
 alda doctor
 alda --help

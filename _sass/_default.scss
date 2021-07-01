@@ -22,12 +22,14 @@ a.img-link {
   background-color: transparent;
 }
 
-p {
+p, ul, ol {
   font-size: 20px;
   line-height: 32px;
 }
 
 pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
   width: 85%;
   margin: 0 auto;
   padding: 15px;
@@ -36,8 +38,16 @@ pre {
 }
 
 :not(pre) > code {
+  font-family: monospace, monospace;
+  font-size: 1em;
   background: $lightgray;
   padding: 4px;
+}
+
+// Make <code>...</code> text a little smaller, otherwise it looks too big
+// compared to the sans serif we're using in <p>...</p>.
+p > code {
+  font-size: 0.8em;
 }
 
 img {
