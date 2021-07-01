@@ -67,22 +67,12 @@ req.addEventListener("load", function() {
     .innerText =
     `Step 2: Download Alda ${release.version} (${release.date})`;
 
-  // Alda v1 has only one executable, alda(.exe), whereas Alda v2 has two,
-  // alda(.exe) and alda-player(.exe). Here, we check the number of assets for
-  // one arbitrary OS-arch combination in the response, simply so that we can
-  // know whether or not to use "executables" in the plural in the instructions
-  // that we display on the page.
-  const [_, exampleAssets] = Object.entries(release.assets)[0];
-  const multipleExecutables = exampleAssets.length > 1;
-
   downloadDiv.innerHTML = "";
   downloadDiv.appendChild(
     element(
       "p",
       {
-        innerText: multipleExecutables
-        ? "Download the Alda executables below for your platform:"
-        : "Download the Alda executable below for your platform:"
+        innerText: "Download the Alda executables below for your platform:"
       }
     )
   );
@@ -119,30 +109,21 @@ req.addEventListener("load", function() {
 
   downloadDiv.appendChild(table);
 
-  const files = multipleExecutables ? "files" : "file";
-  const filesAre = multipleExecutables ? "files are" : "file is";
-  const executables = multipleExecutables ? "executables" : "executable";
-  const executablesAre =
-    multipleExecutables ? "executables are" : "executable is";
-  const them = multipleExecutables ? "them" : "it";
-  const chmodTarget = multipleExecutables ? "{alda,alda-player}" : "alda";
-
   installDiv.innerHTML = `
   <p>
-    On Mac and Linux, first run <code>chmod +x ~/Downloads/${chmodTarget}</code>
-    (replace <code>~/Downloads</code> with wherever you downloaded the ${files})
-    to ensure that the ${filesAre} executable.
+    On Mac and Linux, first run <code>chmod +x
+    ~/Downloads/{alda,alda-player}</code> (replace <code>~/Downloads</code> with
+    wherever you downloaded the files) to ensure that the files are executable.
   </p>
 
   <p>
-    On Windows, the <code>.exe</code> ${filesAre} already executable, but you
-    may need to right-click the ${files} and click "unblock" in the file
-    properties.
+    On Windows, the <code>.exe</code> files are already executable, but you may
+    need to right-click the files and click "unblock" in the file properties.
   </p>
 
   <p>
-    Next, make the ${executables} available to run from the command line by
-    placing ${them} in a directory on your PATH.
+    Next, make the executables available to run from the command line by placing
+    them in a directory on your PATH.
 
     <em>
       (If you don't know what your PATH is, here is some information about PATH
