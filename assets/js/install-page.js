@@ -138,7 +138,3 @@ req.addEventListener("load", function() {
 
 req.open("GET", "https://api.alda.io/releases/latest");
 req.send();
-
-// After downloading the `alda` (or `alda.exe`) program, follow [these instructions](https://github.com/alda-lang/alda#installation) to make it available for use in your terminal.
-
-
