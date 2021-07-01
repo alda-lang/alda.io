@@ -42,6 +42,7 @@ function unexpectedResponse(response) {
 }
 
 const req = new XMLHttpRequest();
+
 req.addEventListener("load", function() {
   let res;
 
@@ -133,17 +134,8 @@ req.addEventListener("load", function() {
     </em>
   </p>
   `
-
-  installDiv.appendChild(
-    element(
-      "p",
-      {
-        innerHTML: `
-        `
-      }
-    )
-  );
 })
+
 req.open("GET", "https://api.alda.io/releases/latest");
 req.send();
 
