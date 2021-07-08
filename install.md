@@ -36,7 +36,7 @@ correctly:
 alda version
 alda doctor
 alda --help
-alda play -c '(tempo! 160) trumpet: (quant 60) f12 b- > d f6 d12 f1'
+alda play -c "(tempo! 160) trumpet: (quant 60) f12 b- > d f6 d12 f1"
 {% endhighlight %}
 
 _If you're having trouble, please don't hesitate to ask for help in the [Alda
