@@ -16,7 +16,7 @@ To verify whether or not you have Java installed, open a terminal and run `java
 -version`.
 
 If you don't have Java installed yet, we recommend downloading and installing
-the latest stable release from [AdoptOpenJDK].
+the latest stable release from [Adoptium].
 
 <!-- install-page.js depends on this ID. -->
 <h2 id="step-2-download-alda">Step 2: Download Alda</h2>
@@ -52,7 +52,7 @@ Once you're up and running with Alda, we recommend:
 
 <script src="{{ site.baseurl }}/assets/js/install-page.js"></script>
 
-[AdoptOpenJDK]: https://adoptopenjdk.net/
+[Adoptium]: https://adoptium.net/
 [alda-github]: https://github.com/alda-lang/alda
 [alda-slack]: https://slack.alda.io
 [install-midi-soundfont]: https://github.com/alda-lang/alda/blob/master/doc/installing-a-good-soundfont.md
