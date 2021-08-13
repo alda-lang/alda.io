@@ -16,7 +16,7 @@ To verify whether or not you have Java installed, open a terminal and run `java
 -version`.
 
 If you don't have Java installed yet, we recommend downloading and installing
-the latest stable release from [Adoptium].
+the latest stable release of OpenJDK from [Adoptium].
 
 <!-- install-page.js depends on this ID. -->
 <h2 id="step-2-download-alda">Step 2: Download Alda</h2>
