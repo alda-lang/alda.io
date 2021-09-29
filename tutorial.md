@@ -186,7 +186,8 @@ terminal, and name it `test.alda`.
 Type the following into `test.alda`:
 
 ```alda
-bassoon: o2 d8 e (quant 30) f+ g (quant 99) a2
+bassoon:
+  o2 d8 e (quant 30) f+ g (quant 99) a2
 ```
 
 Then, run `alda play --file test.alda`. You should hear a nimble bassoon melody.
@@ -206,7 +207,8 @@ at 99%) is long and _legato_.
 Try editing `test.alda` to look like this:
 
 ```alda
-bassoon: o2 d8 e (quant 30) (vol 50) f+ g (quant 99) a2
+bassoon:
+  o2 d8 e (quant 30) (vol 50) f+ g (quant 99) a2
 ```
 
 Run `alda play --file test.alda` again to hear the difference in volume between the first two and last three notes.
@@ -218,8 +220,11 @@ Finally, we come to the meat of writing a score: writing for multiple instrument
 An Alda score can contain any number of instrument parts, which are all played simultaneously when the score is performed. Try this out in your `test.alda` file:
 
 ```alda
-trumpet:  o4 c8 d e f g a b > c4.
-trombone: o3 e8 f g a b > c d e4.
+trumpet:
+  o4 c8 d e f g a b > c4.
+
+trombone:
+  o3 e8 f g a b > c d e4.
 ```
 
 The key thing to notice here is that we have written out individual parts for two instruments, a trumpet and a trombone – one after the other – and when you play the score, you will hear both instruments playing at the same time, in harmony.
@@ -227,11 +232,17 @@ The key thing to notice here is that we have written out individual parts for tw
 You can also write out the parts a little at a time, like this:
 
 ```alda
-trumpet:  o4 c8 d e f g
-trombone: o3 e8 f g a b
+trumpet:
+  o4 c8 d e f g
 
-trumpet:  a b > c4.
-trombone: > c d e4.
+trombone:
+  o3 e8 f g a b
+
+trumpet:
+  a b > c4.
+
+trombone:
+  > c d e4.
 ```
 
 Notice that this example sounds exactly the same as the last example. This demonstrates another important thing about writing scores in Alda: when you switch to another instrument part, the instrument part you were working on still exists, in sort of a “paused” state, ready to pick it back up where you left off once you switch back to that instrument.
@@ -241,8 +252,11 @@ Notice that this example sounds exactly the same as the last example. This demon
 Recall that you can change things like an instrument’s `volume` by setting attributes. `tempo` is another thing you can change by setting an attribute. Let’s try it:
 
 ```alda
-trumpet:  (tempo 200) o4 c8 d e f g a b > c4.
-trombone: o3 e8 f g a b > c d e4.
+trumpet:
+  (tempo 200) o4 c8 d e f g a b > c4.
+
+trombone:
+  o3 e8 f g a b > c d e4.
 ```
 
 Wait a minute… did you hear that? The trumpet took off at 200 bpm like we told it to, but the trombone remained steady at the default tempo, 120 bpm! This is actually not a bug, but a feature. In Alda, tempo (along with every other attribute) is set on a per-instrument basis, making it entirely possible for two instruments to be playing at two totally different tempos.
@@ -250,8 +264,11 @@ Wait a minute… did you hear that? The trumpet took off at 200 bpm like we told
 Global attributes are written just like regular attributes, but with an exclamation point on the end. Try this on for size:
 
 ```alda
-trumpet:  (tempo! 200) o4 c8 d e f g a b > c4.
-trombone: o3 e8 f g a b > c d e4.
+trumpet:
+  (tempo! 200) o4 c8 d e f g a b > c4.
+
+trombone:
+  o3 e8 f g a b > c d e4.
 ```
 
 `tempo!` sets the tempo for all instruments, at the specific time in the score where you place it. Try playing around with this bit of Alda code, moving the `(tempo! 200)` to different places in the score. Try out some different tempos other than 200 bpm.
@@ -279,9 +296,14 @@ either the trumpet or trombone part, right before the last note, and then jump
 to that marker in the tuba part that we’ll create:
 
 ```alda
-trumpet:  o4 c8 d e f g a b > %last-note c4.~2
-trombone: o3 e8 f g a b > c d e4.~2
-tuba: @last-note o2 c4.~2
+trumpet:
+  o4 c8 d e f g a b > %last-note c4.~2
+
+trombone:
+  o3 e8 f g a b > c d e4.~2
+
+tuba:
+  @last-note o2 c4.~2
 ```
 
 So, that’s Alda in a nutshell.
