@@ -21,6 +21,29 @@ _For a more detailed introduction to Alda, try the [tutorial]!_
 
 ---
 
+**[Comments](#comments) •
+[Notes](#notes) •
+[Rests](#rests) •
+[Octaves](#octaves) •
+[Accidentals](#accidentals) •
+[Note lengths / duration](#note-lengths--duration) •
+[Ties](#ties) •
+[Slurs / legato](#slurs--legato) •
+[Cram expressions](#cram-expressions) •
+[Chords](#chords) •
+[Voices](#voices) •
+[Parts](#parts) •
+[Tempo](#tempo) •
+[Volume / dynamics](#volume--dynamics) •
+[Panning](#panning) •
+[Quantization (legato <-> staccato)](#quantization-legato---staccato) •
+[Key signature](#key-signature) •
+[Markers](#markers) •
+[Variables](#variables) •
+[Repeats](#repeats)**
+
+---
+
 ## Comments
 
 ```alda
