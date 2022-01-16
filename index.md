@@ -40,6 +40,9 @@ The language's design equally favors aesthetics, flexibility and ease of use.
 * Create MIDI music using any of the instruments in the [General MIDI Sound
   Set][gm-sound-set].
 
+<script src="{{ site.baseurl }}/assets/js/wasm_exec.js"></script>
+<script src="{{ site.baseurl }}/assets/js/index-page.js"></script>
+
 [doc-repl]: https://github.com/alda-lang/alda/blob/master/doc/alda-repl.md
 [doc-programmatic]: https://github.com/alda-lang/alda/blob/master/doc/writing-music-programmatically.md
 [gm-sound-set]: http://www.midi.org/techspecs/gm1sound.php

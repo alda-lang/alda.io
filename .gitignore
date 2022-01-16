@@ -2,3 +2,4 @@ _site
 .sass-cache
 .netlify
 .jekyll-cache
+assets/wasm
