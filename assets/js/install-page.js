@@ -41,11 +41,19 @@ function unexpectedResponse(response) {
   bailOut();
 }
 
+function unexpectedStatusResponse(status, response) {
+  console.error("Unexpected response:", status, response);
+  bailOut();
+}
+
 const req = new XMLHttpRequest();
 
 req.addEventListener("load", function() {
-  let res;
+  if (this.status != 200) {
+    return unexpectedStatusResponse(this.status, this.responseText);
+  }
 
+  let res;
   try {
     res = JSON.parse(this.responseText);
   } catch (error) {
