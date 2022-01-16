@@ -37,7 +37,7 @@ function bailOut() {
 }
 
 function unexpectedResponse(response) {
-  console.log("Unexpected response:", response);
+  console.error("Unexpected response:", response);
   bailOut();
 }
 
@@ -49,7 +49,7 @@ req.addEventListener("load", function() {
   try {
     res = JSON.parse(this.responseText);
   } catch (error) {
-    console.log(error);
+    console.error(error);
     return bailOut();
   }
 
