@@ -15,6 +15,12 @@ set -eo pipefail
 # NOTE: If you want the Jekyll "automatic rebuild" behavior and you don't need
 # WASM to work when developing locally (e.g. you're just changing the wording or
 # styling on a page), you can still use `bundle exec jekyll serve`.
+#
+# UPDATE 2022-02-25: The issue appears to have been fixed upstream in Jekyll.
+# TODO once the fix is released: Try `bundle exec jekyll serve` again. If the
+# issue is fixed and everything is working (including loading alda.wasm), then
+# this script can go away and we can just run `bundle exec jekyll serve` at the
+# command line again.
 bundle exec jekyll build
 npx http-server "$(dirname "$0")/../_site"
 
