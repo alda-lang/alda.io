@@ -20,6 +20,13 @@ a {
 
 a.img-link {
   background-color: transparent;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.logo {
+  display: inline-block;
+  margin: 25px auto;
 }
 
 p, ul, ol {
@@ -141,17 +148,6 @@ table {
 .navigation {
   margin-left: 20px;
   margin-top: -25px;
-}
-
-.logo {
-  width: 360px;
-  height: 128px;
-  margin: 0;
-
-  font-size: 50px;
-  font-weight: 700;
-  color: $black;
-  display: block;
 }
 
 .menu {
