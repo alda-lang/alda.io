@@ -88,10 +88,10 @@ blockquote {
   p {
     display: inline;
     font-size: 20px;
-    color: $lightgray;
+    color: $black;
     font-weight: 400;
-    &:before { content: "“ "; }
-    &:after { content: " ”"; }
+    // &:before { content: "“ "; }
+    // &:after { content: " ”"; }
   }
 }
 

@@ -9,6 +9,9 @@ Alda is [open source][alda-github] and available for free. You can run it from
 the command line on your Mac (10.13 High Sierra or newer), Windows, or Linux
 computer.
 
+> (If you'd like to try Alda without installing it, check out Severak's
+> unofficial [Alda web workspace][alda-web-workspace]!)
+
 ## Step 1: Install Java
 
 Alda's sound engine requires Java to be installed.
@@ -56,6 +59,7 @@ Once you're up and running with Alda, we recommend:
 [Adoptium]: https://adoptium.net/
 [alda-github]: https://github.com/alda-lang/alda
 [alda-slack]: https://slack.alda.io
+[alda-web-workspace]: https://severak.github.io/alda-js/
 [install-midi-soundfont]: https://github.com/alda-lang/alda/blob/master/doc/installing-a-good-soundfont.md
 [editor-plugins]: https://github.com/alda-lang/alda/blob/master/doc/editor-plugins.md
 [tutorial]: {{ site.baseurl }}/tutorial
