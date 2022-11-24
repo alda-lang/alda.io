@@ -9,7 +9,7 @@ Alda is [open source][alda-github] and available for free. You can run it from
 the command line on your Mac (10.13 High Sierra or newer), Windows, or Linux
 computer.
 
-> (If you'd like to try Alda without installing it, check out Severak's
+> (If you'd like to try Alda without installing it, check out Severák's
 > unofficial [Alda web workspace][alda-web-workspace]!)
 
 ## Step 1: Install Java
