@@ -25,5 +25,7 @@ Discuss Alda on Reddit:
 </a>
 
 Chat with us on Slack:
-<script async defer src="https://slack.alda.io/slackin.js"></script>
-
+<a href="https://join.slack.com/t/alda-lang/shared_invite/zt-1rq24yd5v-~gjDFzo~zuw5sei9Qj88nw">
+  <i class="fa fa-slack"></i>
+  alda-lang
+</a>
