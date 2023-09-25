@@ -315,4 +315,4 @@ If you'd like to go deeper, check out [the docs][docs] or come chat with us on
 [scientific-pitch-notation]: https://en.wikipedia.org/wiki/Scientific_pitch_notation
 [dotted-notes]: https://en.wikipedia.org/wiki/Dotted_note
 [docs]: https://github.com/alda-lang/alda/blob/master/doc/index.md
-[slack]: https://slack.alda.io
+[slack]: http://slack.alda.io

@@ -58,7 +58,7 @@ Once you're up and running with Alda, we recommend:
 
 [Adoptium]: https://adoptium.net/
 [alda-github]: https://github.com/alda-lang/alda
-[alda-slack]: https://slack.alda.io
+[alda-slack]: http://slack.alda.io
 [alda-web-workspace]: https://severak.github.io/alda-js/
 [install-midi-soundfont]: https://github.com/alda-lang/alda/blob/master/doc/installing-a-good-soundfont.md
 [editor-plugins]: https://github.com/alda-lang/alda/blob/master/doc/editor-plugins.md

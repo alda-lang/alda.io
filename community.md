@@ -25,7 +25,7 @@ Discuss Alda on Reddit:
 </a>
 
 Chat with us on Slack:
-<a href="https://slack.alda.io">
+<a href="http://slack.alda.io">
   <i class="fa fa-slack"></i>
   alda-lang
 </a>
