@@ -16,6 +16,6 @@ Pull requests welcome!
 
 ## License
 
-Copyright © 2012-2023 Dave Yarwood et al
+Copyright © 2012-2024 Dave Yarwood et al
 
 Distributed under the Eclipse Public License version 2.0.
