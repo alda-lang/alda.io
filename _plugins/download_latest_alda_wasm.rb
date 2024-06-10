@@ -72,7 +72,6 @@ Jekyll::Hooks.register :site, :after_init do |site|
   puts "Fetching alda.wasm..."
 
   aldaWasm = Tempfile.new("alda.wasm")
-  puts "Temp file created at: #{aldaWasm.path}"
   begin
     res = Net::HTTP.get_response(URI(wasmAsset["url"]))
 
@@ -85,7 +84,7 @@ Jekyll::Hooks.register :site, :after_init do |site|
     aldaWasm.write(res.body)
 
     FileUtils.mkdir_p("assets/wasm")
-    FileUtils.cp(aldaWasm.path, "assets/wasm/alda.wasm")
+    FileUtils.mv(aldaWasm, "assets/wasm/alda.wasm")
   ensure
     aldaWasm.close
     aldaWasm.unlink
