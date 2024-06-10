@@ -1,38 +1,52 @@
-<header class="header">
-  <div id="branding">
-    <a class="img-link" href="{{ '/' | prepend: site.baseurl }}">
-      <img class="logo"
-           src="{{ '/images/alda-logo-horizontal.svg' | prepend: site.baseurl }}"
-           alt="Alda logo">
-    </a>
-  </div>
-  <div class="navigation">
-    <ul class="menu">
-      <li class="menu__entry">
-        <a href="{{ '/install' | prepend: site.baseurl }}">
-          install
-        </a>
-      </li>
-      <li class="menu__entry">
-        <a href="{{ '/tutorial' | prepend: site.baseurl }}">
-          tutorial
-        </a>
-      </li>
-      <li class="menu__entry">
-        <a href="{{ '/cheat-sheet' | prepend: site.baseurl }}">
-          cheat sheet
-        </a>
-      </li>
-      <li class="menu__entry">
-        <a href="https://github.com/alda-lang/alda/blob/master/doc/index.md">
-          docs
-        </a>
-      </li>
-      <li class="menu__entry">
-        <a href="{{ '/community' | prepend: site.baseurl }}">
-          community
-        </a>
-      </li>
-    </ul>
-  </div>
-</header>
+<!-- header.html (HTML template that includes the header) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Website Title</title>
+  <!-- Other meta tags, stylesheets, and scripts can go here -->
+</head>
+<body>
+  <header class="header">
+    <div id="branding">
+      <a class="img-link" href="{{ '/' | prepend: site.baseurl }}">
+        <img class="logo"
+             src="{{ '/images/alda-logo-horizontal.svg' | prepend: site.baseurl }}"
+             alt="Alda logo">
+      </a>
+    </div>
+    <div class="navigation">
+      <ul class="menu">
+        <li class="menu__entry">
+          <a href="{{ '/install' | prepend: site.baseurl }}">
+            install
+          </a>
+        </li>
+        <li class="menu__entry">
+          <a href="{{ '/tutorial' | prepend: site.baseurl }}">
+            tutorial
+          </a>
+        </li>
+        <li class="menu__entry">
+          <a href="{{ '/cheat-sheet' | prepend: site.baseurl }}">
+            cheat sheet
+          </a>
+        </li>
+        <li class="menu__entry">
+          <a href="https://github.com/alda-lang/alda/blob/master/doc/index.md">
+            docs
+          </a>
+        </li>
+        <li class="menu__entry">
+          <a href="{{ '/community' | prepend: site.baseurl }}">
+            community
+          </a>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <!-- Other HTML content specific to your website's pages -->
+</body>
+</html>
+
