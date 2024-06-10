@@ -85,13 +85,10 @@ Jekyll::Hooks.register :site, :after_init do |site|
     aldaWasm.write(res.body)
 
     FileUtils.mkdir_p("assets/wasm")
-    puts "Directory created or already exists: assets/wasm"
     FileUtils.cp(aldaWasm.path, "assets/wasm/alda.wasm")
-    puts "File copied to: assets/wasm/alda.wasm"
   ensure
     aldaWasm.close
     aldaWasm.unlink
-    puts "Temp file deleted: #{aldaWasm.path}"
   end
 end
 
