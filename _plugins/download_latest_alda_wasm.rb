@@ -90,5 +90,3 @@ Jekyll::Hooks.register :site, :after_init do |site|
     aldaWasm.unlink
   end
 end
-
-
