@@ -1,11 +1,13 @@
 const downloadDiv = document.getElementById("download-alda");
 const installDiv = document.getElementById("install-alda");
 
-const windowsPathInfoUrl = "https://medium.com/@kevinmarkvi/how-to-add-executables-to-your-path-in-windows-5ffa4ce61a53";
+const windowsPathInfoUrl =
+  "https://medium.com/@kevinmarkvi/how-to-add-executables-to-your-path-in-windows-5ffa4ce61a53";
 
-const linuxPathInfoUrl = "https://linuxize.com/post/how-to-add-directory-to-path-in-linux/";
+const linuxPathInfoUrl =
+  "https://linuxize.com/post/how-to-add-directory-to-path-in-linux/";
 
-function element(type, {innerHTML, innerText} = {}) {
+function element(type, { innerHTML, innerText } = {}) {
   const element = document.createElement(type);
 
   if (innerHTML) {
@@ -19,7 +21,7 @@ function element(type, {innerHTML, innerText} = {}) {
   return element;
 }
 
-downloadDiv.appendChild(element("em", {innerHTML: "Loading..."}));
+downloadDiv.appendChild(element("em", { innerHTML: "Loading..." }));
 
 function bailOut() {
   downloadDiv.innerHTML = `
@@ -48,7 +50,7 @@ function unexpectedStatusResponse(status, response) {
 
 const req = new XMLHttpRequest();
 
-req.addEventListener("load", function() {
+req.addEventListener("load", function () {
   if (this.status != 200) {
     return unexpectedStatusResponse(this.status, this.responseText);
   }
@@ -71,48 +73,42 @@ req.addEventListener("load", function() {
     return unexpectedResponse(res);
   }
 
-  document
-    .getElementById("step-2-download-alda")
-    .innerText =
-    `Step 2: Download Alda ${release.version} (${release.date})`;
+  document.getElementById(
+    "step-2-download-alda",
+  ).innerText = `Step 2: Download Alda ${release.version} (${release.date})`;
 
   downloadDiv.innerHTML = "";
   downloadDiv.appendChild(
-    element(
-      "p",
-      {
-        innerText: "Download the Alda executables below for your platform:"
-      }
-    )
+    element("p", {
+      innerText: "Download the Alda executables below for your platform:",
+    }),
   );
 
   const table = element("table");
 
   [
-    {label: "Mac (64-bit)",     key: "darwin-amd64"},
-    {label: "Windows (64-bit)", key: "windows-amd64"},
-    {label: "Windows (32-bit)", key: "windows-386"},
-    {label: "Linux (64-bit)",   key: "linux-amd64"},
-    {label: "Linux (32-bit)",   key: "linux-386"}
-  ].forEach(({label, key}) => {
+    { label: "Mac (64-bit)", key: "darwin-amd64" },
+    { label: "Windows (64-bit)", key: "windows-amd64" },
+    { label: "Windows (32-bit)", key: "windows-386" },
+    { label: "Linux (64-bit)", key: "linux-amd64" },
+    { label: "Linux (32-bit)", key: "linux-386" },
+    { label: "Linux (ARMv7)", key: "linux-arm-7" },
+    { label: "Linux (ARM64)", key: "linux-arm64" },
+  ].forEach(({ label, key }) => {
     const assets = release.assets[key];
     if (!assets) return;
 
-    const assetsHTML =
-      assets.map(
-        ({name, url}) => `<a href="${url}">${name}</a>`
-      ).join(" + ");
+    const assetsHTML = assets
+      .map(({ name, url }) => `<a href="${url}">${name}</a>`)
+      .join(" + ");
 
     table.appendChild(
-      element(
-        "tr",
-        {
-          innerHTML: `
+      element("tr", {
+        innerHTML: `
           <td><strong>${label}:</strong></td>
           <td>${assetsHTML}</td>
-          `
-        }
-      )
+          `,
+      }),
     );
   });
 
@@ -141,8 +137,8 @@ req.addEventListener("load", function() {
       <a href="${linuxPathInfoUrl}">Mac/Linux</a> users).
     </em>
   </p>
-  `
-})
+  `;
+});
 
 req.open("GET", "https://api.alda.io/releases/latest");
 req.send();
